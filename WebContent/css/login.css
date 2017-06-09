@@ -1,0 +1,137 @@
+@import url("openSans.css");
+
+body {
+	background: url(../images/back.jpg);
+	font-family: "open sans";
+}
+
+.homeHead,.homeBody {
+	text-align: center;
+}
+
+.logoContainer {
+	padding: 30px 20px;
+	color: silver;
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo {
+	width: 100%;
+	display: block;
+}
+
+span.logoRight {
+	font-weight: bold;
+}
+
+.subHomeBody {
+	width: 600px;
+	margin: 0 auto;
+	border-top: solid 2px #1b1b1b;
+	padding-top: 50px;
+	text-align: center;
+}
+
+span.headText {
+	display: inline-block;
+	font-size: 24px;
+	margin: 20px 20px;
+}
+
+.loginBlock {
+	position: relative;
+	display: inline-block;
+	background-color: white;
+	padding: 35px 90px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 30px 2px;
+}
+
+.lockIcon {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	right: -20px;
+	top: -20px;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.button {
+	color: white;
+	border: solid 1px #D68533;
+	background-color: #D68533;
+	clear: both;
+	padding: 5px 10px;
+	min-width: 100px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button:hover {
+	border: solid 1px #F2A65A;
+	background-color: #F2A65A;
+}
+
+.textBoxContainer {
+	margin: 20px auto;
+	position: relative;
+	max-width: 290px;
+}
+
+.textBox {
+	position: relative;
+	padding-left: 40px;
+	display: inline-block;
+	background-position: -183px 0px;
+	border: 1px solid #9b9b9b;
+	border-radius: 2px;
+	height: 37px;
+	background: none;
+	text-align: left;
+	margin-bottom: 2px;
+	width: 250px;
+}
+
+select.textBox {
+	width: 290px;
+	height: 42px;
+}
+
+.textBox:hover {
+	border-color: #D68533;
+}
+
+.textBox:focus {
+	border-color: #D68533;
+}
+
+.inputBoxIcon {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	padding: 10px;
+	z-index: 999;
+}
+
+.inputBoxIcon img {
+	height: 20px;
+	width: 20px;
+}
+
+span.errorMsg {
+	color: red;
+	font-size: 15px;
+	display: inline-block;
+	margin: 5px 5px 10px;
+}
+
+.errorPageBtn {
+	padding: 15px 50px;
+}
